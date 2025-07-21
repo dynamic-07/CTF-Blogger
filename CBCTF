@@ -1,2 +1,0 @@
-git rm config.php
-git commit -m "Removed sensitive config"
