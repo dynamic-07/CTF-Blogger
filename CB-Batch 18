@@ -1,0 +1,7 @@
+mkdir ctf-logger && cd ctf-logger
+git init
+
+echo "<?php\n\$api_key = 'CBCTF{git_commit_leak}';\n?>" > config.php
+
+git add config.php
+git commit -m "Initial commit with config"
